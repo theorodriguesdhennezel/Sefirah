@@ -62,7 +62,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <UnoIconForegroundFile>Assets\Icons\icon_foreground.svg</UnoIconForegroundFile>
+        <UnoIconForegroundFile>Assets/Icons/icon_foreground.svg</UnoIconForegroundFile>
         <UnoIconBackgroundColor Condition="'$(IsWinAppSdk)' == 'true'">Transparent</UnoIconBackgroundColor>
     </PropertyGroup>
 
@@ -89,7 +89,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="Assets\Icons\IconResource.dll">
+        <Content Include="Assets/Icons/IconResource.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
@@ -103,21 +103,25 @@
         <PackageReference Include="H.NotifyIcon.Uno.WinUI" />
         <PackageReference Include="libphonenumber-csharp" />
         <PackageReference Include="MeaMod.DNS" />
-        <PackageReference Include="NAudio" />
         <PackageReference Include="NetCoreServer" />
         <PackageReference Include="sqlite-net-pcl" />
         <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" />
         <PackageReference Include="SQLitePCLRaw.provider.sqlite3" />
         <PackageReference Include="SSH.NET" />
         <PackageReference Include="Tmds.DBus" />
+        <PackageReference Include="QRCoder" />
+        <PackageReference Include="Uno.Fonts.Fluent" />
+    </ItemGroup>
+    
+    <ItemGroup Condition="'$(TargetFramework)' == 'net9.0-windows10.0.26100'">
+        <PackageReference Include="NAudio" />
         <PackageReference Include="Vanara.PInvoke.CldApi" />
         <PackageReference Include="Vanara.PInvoke.Ole" />
         <PackageReference Include="Vanara.PInvoke.Shell32" />
-        <PackageReference Include="QRCoder" />
     </ItemGroup>
     
     <ItemGroup>
-        <UnoSplashScreen Update="Assets\Splash\splash_screen.svg">
+        <UnoSplashScreen Update="Assets/Splash/splash_screen.svg">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </UnoSplashScreen>
     </ItemGroup>

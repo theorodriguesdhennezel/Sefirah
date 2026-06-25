@@ -234,7 +234,7 @@ public sealed partial class AppsViewModel : BaseViewModel
             try
             {
                 Logger.Debug($"Opening app: {app.AppName}");
-                IconUtils.SetScrcpyWindowIcon(app.PackageName);
+                // IconUtils.SetScrcpyWindowIcon(app.PackageName);
                 var started = await ScreenMirrorService.StartScrcpy(DeviceManager.ActiveDevice!, $"--start-app={app.PackageName} --window-title=\"{app.AppName}\"");
                 if (started)
                 {

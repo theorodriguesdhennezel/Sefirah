@@ -9,7 +9,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="AdvancedSharpAdbClient" Version="3.5.15" />
-    <PackageVersion Include="BouncyCastle.Cryptography" Version="2.5.1" />
+    <PackageVersion Include="BouncyCastle.Cryptography" Version="2.6.2" />
     <PackageVersion Include="CommunityToolkit.WinUI.Controls.SettingsControls" Version="8.2.251219" />
     <PackageVersion Include="CommunityToolkit.WinUI.Converters" Version="8.2.251219" />
     <PackageVersion Include="CommunityToolkit.WinUI.Extensions" Version="8.2.251219" />
@@ -25,6 +25,7 @@
     <PackageVersion Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.11" />
     <PackageVersion Include="SSH.NET" Version="2025.1.0" />
     <PackageVersion Include="Tmds.DBus" Version="0.92.0" />
+    <PackageVersion Include="Uno.Fonts.Fluent" Version="2.6.1" />
     <PackageVersion Include="Uno.WinUI.Runtime.Skia.Linux.FrameBuffer" Version="5.6.91" />
     <PackageVersion Include="Uno.WinUI.Runtime.Skia.X11" Version="5.6.91" />
     <PackageVersion Include="Vanara.PInvoke.CldApi" Version="5.0.1" />
